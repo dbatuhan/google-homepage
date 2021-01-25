@@ -16,6 +16,7 @@
     border-style: hidden;
     border-radius: 6px;
     padding: 10px 10px;
+    background-color: #f8f9fa;
   }
   button:hover {
     box-shadow: 1px 1px 1px 1px #D2CCB9;
@@ -34,5 +35,42 @@
    outline: none;
    box-shadow: 2px 1px 1px 1px #D2CCB9;
   }
-  
-  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: right;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:visited {
+   color: black;
+  }
+  footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   right: 0;
+  }
+  .footer {
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  }
+  a {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  }
